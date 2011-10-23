@@ -9,12 +9,21 @@
  * @author  Michael Kolling and David J. Barnes
  * @version 2008.03.30
  */
+
+/**
+ * Denna fil innehåller ändringar för uppgifterna:
+ * 1.13
+ * 1.14
+ * 1.15
+ * 1.16
+ */
 public class Picture
 {
     private Square wall;
     private Square window;
     private Triangle roof;
     private Circle sun;
+    private Circle sun2;
 
     /**
      * Constructor for objects of class Picture
@@ -47,11 +56,18 @@ public class Picture
         roof.makeVisible();
 
         sun = new Circle();
-        sun.changeColor("yellow");
+        sun.changeColor("blue");
         sun.moveHorizontal(180);
         sun.moveVertical(-10);
         sun.changeSize(60);
         sun.makeVisible();
+        
+        sun2 = new Circle();
+        sun2.changeColor("yellow");
+        sun2.moveHorizontal(10);
+        sun2.moveVertical(-50);
+        sun2.changeSize(80);
+        sun2.makeVisible();
     }
 
     /**
@@ -80,5 +96,13 @@ public class Picture
             roof.changeColor("green");
             sun.changeColor("yellow");
         }
+    }
+    
+    /**
+     * Starts the sunset
+     */
+    public void startSunSet()
+    {
+        sun.slowMoveVertical(300);
     }
 }

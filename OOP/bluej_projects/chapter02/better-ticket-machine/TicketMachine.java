@@ -9,6 +9,13 @@
  * @author David J. Barnes and Michael Kolling
  * @version 2008.03.30
  */
+
+/**
+ * Denna fil svarar pŒ uppgifterna:
+ * 2.55
+ * 2.56
+ * 2.57
+ */
 public class TicketMachine
 {
     // The price of a ticket from this machine.
@@ -67,7 +74,8 @@ public class TicketMachine
      */
     public void printTicket()
     {
-        if(balance >= price) {
+        int amountLeftToPay = price - balance;
+        if(amountLeftToPay <= 0) {
             // Simulate the printing of a ticket.
             System.out.println("##################");
             System.out.println("# The BlueJ Line");
@@ -80,10 +88,14 @@ public class TicketMachine
             total = total + price;
             // Reduce the balance by the prince.
             balance = balance - price;
+            if(amountLeftToPay < 0)
+            {
+                System.out.println("# You get " + refundBalance() + " cents in return.");
+            }
         }
         else {
             System.out.println("You must insert at least: " +
-                               (price - balance) + " more cents.");
+                               amountLeftToPay + " more cents.");
                     
         }
     }
@@ -98,5 +110,15 @@ public class TicketMachine
         amountToRefund = balance;
         balance = 0;
         return amountToRefund;
+    }
+    
+   /**
+     * Empties the machine and returns the total
+     */
+    public int emptyMachine()
+    {
+        int t = total;
+        total = 0;
+        return t;
     }
 }

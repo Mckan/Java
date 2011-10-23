@@ -9,6 +9,14 @@
  * @author David J. Barnes and Michael Kolling
  * @version 2008.03.30
  */
+
+/**
+ * I denna fil redovisas:
+ * 2.39
+ * 2.40
+ * 2.41
+ * 2.42
+ */
 public class TicketMachine
 {
     // The price of a ticket from this machine.
@@ -17,15 +25,24 @@ public class TicketMachine
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
+    // The ticket cost
+    private int ticketCost = 1000;
 
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int ticketCost)
+    public TicketMachine()
     {
         price = ticketCost;
+        balance = 0;
+        total = 0;
+    }
+    
+    public TicketMachine(int t)
+    {
+        price = t;
         balance = 0;
         total = 0;
     }
@@ -45,6 +62,14 @@ public class TicketMachine
     public int getBalance()
     {
         return balance;
+    }
+    
+    /**
+     * Returns the total amount in the machine
+     */
+    public int getTotal()
+    {
+        return total;
     }
 
     /**
@@ -74,5 +99,21 @@ public class TicketMachine
         total = total + balance;
         // Clear the balance.
         balance = 0;
+    }
+    
+    /**
+     * Empties the ticket machine
+     */
+    public void empty()
+    {
+        total = 0;
+    }
+    
+    /**
+     * Sets the price of a ticket
+     */
+    public void setPrice(int p)
+    {
+        price = p;
     }
 }
