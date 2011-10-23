@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=class\ DVD
+comment0.text=\nThe\ DVD\ class\ represents\ a\ DVD\ object.\ Information\ about\ the\ \nDVD\ is\ stored\ and\ can\ be\ retrieved.\ We\ assume\ that\ we\ only\ deal\ \nwith\ movie\ DVDs\ at\ this\ stage.\n\n@author\ Michael\ Kolling\ and\ David\ J.\ Barnes\n@version\ 2006.03.30\n\n
+comment1.params=
+comment1.target=void\ print()
+comment1.text=\nPrint\ details\ about\ this\ DVD\ to\ the\ text\ terminal.\n\n
+comment10.target=gotIt
+comment11.params=theTitle\ theDirector\ time
+comment11.target=DVD(String,String,int)
+comment11.text=\nConstructor\ for\ objects\ of\ class\ DVD\n@param\ theTitle\ The\ title\ of\ this\ DVD.\n@param\ theDirector\ The\ director\ of\ this\ DVD.\n@param\ time\ The\ running\ time\ of\ the\ main\ feature.\n\n
+comment2.target=director
+comment3.params=comment
+comment3.target=void\ setComment(String)
+comment3.text=\nEnter\ a\ comment\ for\ this\ DVD.\n@param\ comment\ The\ comment\ to\ be\ entered.\n\n
+comment4.params=ownIt
+comment4.target=void\ setOwn(boolean)
+comment4.text=\nSet\ the\ flag\ indicating\ whether\ we\ own\ this\ DVD.\n@param\ ownIt\ true\ if\ we\ own\ the\ DVD,\ false\ otherwise.\n\n
+comment5.params=
+comment5.target=String\ getComment()
+comment5.text=\n@return\ The\ comment\ for\ this\ DVD.\n\n
+comment6.target=comment
+comment7.params=
+comment7.target=boolean\ getOwn()
+comment7.text=\n@return\ true\ if\ we\ own\ a\ copy\ of\ this\ DVD.\n\n
+comment8.target=playingTime
+comment9.target=title
+numComments=12

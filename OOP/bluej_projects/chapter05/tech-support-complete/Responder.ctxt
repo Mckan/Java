@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=class\ Responder
+comment0.text=\nThe\ responder\ class\ represents\ a\ response\ generator\ object.\nIt\ is\ used\ to\ generate\ an\ automatic\ response,\ based\ on\ specified\ input.\nInput\ is\ presented\ to\ the\ responder\ as\ a\ set\ of\ words,\ and\ based\ on\ those\nwords\ the\ responder\ will\ generate\ a\ String\ that\ represents\ the\ response.\n\nInternally,\ the\ reponder\ uses\ a\ HashMap\ to\ associate\ words\ with\ response\nstrings\ and\ a\ list\ of\ default\ responses.\ If\ any\ of\ the\ input\ words\ is\ found\nin\ the\ HashMap,\ the\ corresponding\ response\ is\ returned.\ If\ none\ of\ the\ input\nwords\ is\ recognized,\ one\ of\ the\ default\ responses\ is\ randomly\ chosen.\n\n@version\ \ \ \ 1.0\ (2005.07.07)\n@author\ \ \ \ \ Michael\ Kolling\ and\ David\ J.\ Barnes\n\n
+comment1.params=
+comment1.target=String\ pickDefaultResponse()
+comment1.text=\nRandomly\ select\ and\ return\ one\ of\ the\ default\ responses.\n@return\ \ \ \ \ A\ random\ default\ response\n\n
+comment2.target=defaultResponses
+comment3.params=
+comment3.target=Responder()
+comment3.text=\nConstruct\ a\ Responder\n\n
+comment4.target=responseMap
+comment5.params=
+comment5.target=void\ fillDefaultResponses()
+comment5.text=\nBuild\ up\ a\ list\ of\ default\ responses\ from\ which\ we\ can\ pick\ one\nif\ we\ don't\ know\ what\ else\ to\ say.\n\n
+comment6.params=
+comment6.target=void\ fillResponseMap()
+comment6.text=\nEnter\ all\ the\ known\ keywords\ and\ their\ associated\ responses\ninto\ our\ response\ map.\n\n
+comment7.target=randomGenerator
+comment8.params=words
+comment8.target=String\ generateResponse(HashSet<String>)
+comment8.text=\nGenerate\ a\ response\ from\ a\ given\ set\ of\ input\ words.\n\n@param\ words\ \ A\ set\ of\ words\ entered\ by\ the\ user\n@return\ \ \ \ \ \ \ A\ string\ that\ should\ be\ displayed\ as\ the\ response\n\n
+numComments=9

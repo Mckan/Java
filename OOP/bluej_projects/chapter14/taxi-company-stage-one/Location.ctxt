@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Location(int,int)
+comment0.text=\nModel\ a\ location\ in\ the\ city.\n@param\ x\ The\ x\ coordinate.\ Must\ be\ positive.\n@param\ y\ The\ y\ coordinate.\ Must\ be\ positive.\n@throws\ IllegalArgumentException\ If\ a\ coordinate\ is\ negative.\n\n
+comment1.params=destination
+comment1.target=Location\ nextLocation(Location)
+comment1.text=\nGenerate\ the\ next\ location\ to\ visit\ in\ order\ to\nreach\ the\ destination.\n@param\ destination\ Where\ we\ want\ to\ get\ to.\n@return\ A\ location\ in\ a\ direct\ line\ from\ this\ to\ndestination.\n\n
+comment2.params=destination
+comment2.target=int\ distance(Location)
+comment2.text=\nDetermine\ the\ number\ of\ movements\ required\ to\ get\nfrom\ here\ to\ the\ destination.\n@param\ destination\ The\ required\ destination.\n@return\ The\ number\ of\ movement\ steps.\n\n
+comment3.params=other
+comment3.target=boolean\ equals(Object)
+comment3.text=\nImplement\ content\ equality\ for\ locations.\n@return\ true\ if\ this\ location\ matches\ the\ other,\nfalse\ otherwise.\n\n
+comment4.target=String\ toString()
+comment4.text=\n@return\ A\ representation\ of\ the\ location.\n\n
+comment5.target=int\ hashCode()
+comment5.text=\nUse\ the\ top\ 16\ bits\ for\ the\ y\ value\ and\ the\ bottom\ for\ the\ x.\nExcept\ for\ very\ big\ grids,\ this\ should\ give\ a\ unique\ hash\ code\nfor\ each\ (x,\ y)\ pair.\n@return\ A\ hashcode\ for\ the\ location.\n\n
+comment6.target=int\ getX()
+comment6.text=\n@return\ The\ x\ coordinate.\n\n
+comment7.target=int\ getY()
+comment7.text=\n@return\ The\ y\ coordinate.\n\n
+numComments=8

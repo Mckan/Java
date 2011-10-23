@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=class\ SupportSystem
+comment0.text=\nThis\ class\ implements\ a\ technical\ support\ system.\nIt\ is\ the\ top\ level\ class\ in\ this\ project.\nThe\ support\ system\ communicates\ via\ text\ input/output\nin\ the\ text\ terminal.\n\nThis\ class\ uses\ an\ object\ of\ class\ InputReader\ to\ read\ input\nfrom\ the\ user,\ and\ an\ object\ of\ class\ Responder\ to\ generate\ responses.\nIt\ contains\ a\ loop\ that\ repeatedly\ reads\ input\ and\ generates\noutput\ until\ the\ users\ wants\ to\ leave.\n\n@author\ \ \ \ \ Michael\ Kolling\ and\ David\ J.\ Barnes\n@version\ \ \ \ 1.0\ (2005.07.07)\n\n
+comment1.target=reader
+comment2.params=
+comment2.target=SupportSystem()
+comment2.text=\nCreates\ a\ technical\ support\ system.\n\n
+comment3.params=
+comment3.target=void\ printGoodbye()
+comment3.text=\nPrint\ a\ good-bye\ message\ to\ the\ screen.\n\n
+comment4.target=responder
+comment5.params=
+comment5.target=void\ printWelcome()
+comment5.text=\nPrint\ a\ welcome\ message\ to\ the\ screen.\n\n
+comment6.params=
+comment6.target=void\ start()
+comment6.text=\nStart\ the\ technical\ support\ system.\ This\ will\ print\ a\ welcome\ message\ and\ enter\ninto\ a\ dialog\ with\ the\ user,\ until\ the\ user\ ends\ the\ dialog.\n\n
+numComments=7

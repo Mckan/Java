@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=class\ LighterFilter
+comment0.text=\nAn\ image\ filter\ to\ make\ the\ image\ a\ bit\ lighter.\n\n@author\ Michael\ Kolling\ and\ David\ J\ Barnes\ \n@version\ 1.0\n\n
+comment1.params=image
+comment1.target=void\ apply(OFImage)
+comment1.text=\nApply\ this\ filter\ to\ an\ image.\n\n@param\ \ image\ \ The\ image\ to\ be\ changed\ by\ this\ filter.\n\n
+comment2.params=name
+comment2.target=LighterFilter(String)
+comment2.text=\nConstructor\ for\ objects\ of\ class\ LighterFilter.\n@param\ name\ The\ name\ of\ the\ filter.\n\n
+numComments=3

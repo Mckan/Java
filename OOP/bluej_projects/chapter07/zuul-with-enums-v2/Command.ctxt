@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=class\ Command
+comment0.text=\nThis\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \n"World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \n\nThis\ class\ holds\ information\ about\ a\ command\ that\ was\ issued\ by\ the\ user.\nA\ command\ currently\ consists\ of\ two\ parts\:\ a\ CommandWord\ and\ a\ string\n(for\ example,\ if\ the\ command\ was\ "take\ map",\ then\ the\ two\ parts\nare\ TAKE\ and\ "map").\n\nThe\ way\ this\ is\ used\ is\:\ Commands\ are\ already\ checked\ for\ being\ valid\ncommand\ words.\ If\ the\ user\ entered\ an\ invalid\ command\ (a\ word\ that\ is\ not\nknown)\ then\ the\ CommandWord\ is\ UNKNOWN.\n\nIf\ the\ command\ had\ only\ one\ word,\ then\ the\ second\ word\ is\ <null>.\n\n@author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\n@version\ 2006.03.30\n\n
+comment1.params=
+comment1.target=CommandWord\ getCommandWord()
+comment1.text=\nReturn\ the\ command\ word\ (the\ first\ word)\ of\ this\ command.\ If\ the\ncommand\ was\ not\ understood,\ the\ result\ is\ null.\n@return\ The\ command\ word.\n\n
+comment2.params=
+comment2.target=boolean\ isUnknown()
+comment2.text=\n@return\ true\ if\ this\ command\ was\ not\ understood.\n\n
+comment3.params=
+comment3.target=String\ getSecondWord()
+comment3.text=\n@return\ The\ second\ word\ of\ this\ command.\ Returns\ null\ if\ there\ was\ no\nsecond\ word.\n\n
+comment4.params=commandWord\ secondWord
+comment4.target=Command(CommandWord,String)
+comment4.text=\nCreate\ a\ command\ object.\ First\ and\ second\ words\ must\ be\ supplied,\ but\nthe\ second\ may\ be\ null.\n@param\ commandWord\ The\ CommandWord.\ UNKNOWN\ if\ the\ command\ word\nwas\ not\ recognised.\n@param\ secondWord\ The\ second\ word\ of\ the\ command.\ May\ be\ null.\n\n
+comment5.target=secondWord
+comment6.target=commandWord
+comment7.params=
+comment7.target=boolean\ hasSecondWord()
+comment7.text=\n@return\ true\ if\ the\ command\ has\ a\ second\ word.\n\n
+numComments=8

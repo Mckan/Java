@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=field\ location
+comment0.target=Animal(Field,\ Location)
+comment0.text=\nCreate\ a\ new\ animal\ at\ location\ in\ field.\n\n@param\ field\ The\ field\ currently\ occupied.\n@param\ location\ The\ location\ within\ the\ field.\n\n
+comment1.params=newAnimals
+comment1.target=void\ act(List<Animal>)
+comment1.text=\nMake\ this\ animal\ act\ -\ that\ is\:\ make\ it\ do\nwhatever\ it\ wants/needs\ to\ do.\n@param\ newAnimals\ A\ list\ to\ add\ newly\ born\ animals\ to.\n\n
+comment2.target=boolean\ isAlive()
+comment2.text=\nCheck\ whether\ the\ animal\ is\ alive\ or\ not.\n@return\ true\ if\ the\ animal\ is\ still\ alive.\n\n
+comment3.target=void\ setDead()
+comment3.text=\nIndicate\ that\ the\ animal\ is\ no\ longer\ alive.\nIt\ is\ removed\ from\ the\ field.\n\n
+comment4.target=Location\ getLocation()
+comment4.text=\nReturn\ the\ animal's\ location.\n@return\ The\ animal's\ location.\n\n
+comment5.target=Field\ getField()
+comment5.text=\nReturn\ the\ animal's\ field.\n@return\ The\ animal's\ field.\n\n
+comment6.params=newLocation
+comment6.target=void\ setLocation(Location)
+comment6.text=\nPlace\ the\ animal\ at\ the\ new\ location\ in\ the\ given\ field.\n@param\ newLocation\ The\ animal's\ new\ location.\n\n
+numComments=7

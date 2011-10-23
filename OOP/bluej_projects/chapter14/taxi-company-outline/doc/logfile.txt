@@ -1,0 +1,49 @@
+Class documentation
+<---- javadoc command: ---->
+c:\program files\java\jdk1.5.0\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-source
+1.5
+-noindex
+-notree
+-nohelp
+-nonavbar
+-d
+F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\doc
+-classpath
+C:\BlueJ2\lib\junit.jar
+F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\PassengerSource.java
+<---- end of javadoc command ---->
+Loading source file F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\PassengerSource.java...
+Constructing Javadoc information...
+F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\PassengerSource.java:10: cannot find symbol
+symbol  : class TaxiCompany
+location: class PassengerSource
+    private TaxiCompany company;
+            ^
+F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\PassengerSource.java:17: cannot find symbol
+symbol  : class TaxiCompany
+location: class PassengerSource
+    public PassengerSource(TaxiCompany company)
+                           ^
+F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\PassengerSource.java:40: cannot find symbol
+symbol  : class Passenger
+location: class PassengerSource
+    private Passenger createPassenger()
+            ^
+Standard Doclet version 1.5.0
+Building tree for all the packages and classes...
+Generating F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\doc\PassengerSource.html...
+Generating F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\doc\package-frame.html...
+Generating F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\doc\package-summary.html...
+Generating F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\doc\allclasses-frame.html...
+Generating F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\doc\allclasses-noframe.html...
+Generating F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\doc\index.html...
+Generating F:\home\BlueJ\third-edition\projects\chapter14\taxi-company-outline\doc\stylesheet.css...
+3 warnings

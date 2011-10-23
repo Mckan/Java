@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=class\ BallDemo
+comment0.text=\nClass\ BallDemo\ -\ provides\ two\ short\ demonstrations\ showing\ how\ to\ use\ the\ \nCanvas\ class.\ \n\n@author\ Michael\ Kolling\ and\ David\ J.\ Barnes\n@version\ 2002.01.23\n\n
+comment1.params=
+comment1.target=BallDemo()
+comment1.text=\nCreate\ a\ BallDemo\ object.\ Creates\ a\ fresh\ canvas\ and\ makes\ it\ visible.\n\n
+comment2.params=
+comment2.target=void\ drawDemo()
+comment2.text=\nDemonstrate\ some\ of\ the\ drawing\ operations\ that\ are\navailable\ on\ a\ Canvas\ object.\n\n
+comment3.target=myCanvas
+comment4.params=
+comment4.target=void\ bounce()
+comment4.text=\nSimulate\ two\ bouncing\ balls\n\n
+numComments=5

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=randomAge\ field\ location
+comment0.target=Rabbit(boolean,\ Field,\ Location)
+comment0.text=\nCreate\ a\ new\ rabbit.\ A\ rabbit\ may\ be\ created\ with\ age\nzero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\n@param\ randomAge\ If\ true,\ the\ rabbit\ will\ have\ a\ random\ age.\n@param\ field\ The\ field\ currently\ occupied.\n@param\ location\ The\ location\ within\ the\ field.\n\n
+comment1.params=newRabbits
+comment1.target=void\ act(List<Animal>)
+comment1.text=\nThis\ is\ what\ the\ rabbit\ does\ most\ of\ the\ time\ -\ it\ runs\ \naround.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\n@param\ newRabbits\ A\ list\ to\ add\ newly\ born\ rabbits\ to.\n\n
+comment2.target=void\ incrementAge()
+comment2.text=\nIncrease\ the\ age.\nThis\ could\ result\ in\ the\ rabbit's\ death.\n\n
+comment3.params=newRabbits
+comment3.target=void\ giveBirth(List<Animal>)
+comment3.text=\nCheck\ whether\ or\ not\ this\ rabbit\ is\ to\ give\ birth\ at\ this\ step.\nNew\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\n@param\ newRabbits\ A\ list\ to\ add\ newly\ born\ rabbits\ to.\n\n
+comment4.target=int\ breed()
+comment4.text=\nGenerate\ a\ number\ representing\ the\ number\ of\ births,\nif\ it\ can\ breed.\n@return\ The\ number\ of\ births\ (may\ be\ zero).\n\n
+comment5.target=boolean\ canBreed()
+comment5.text=\nA\ rabbit\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\n@return\ true\ if\ the\ rabbit\ can\ breed,\ false\ otherwise.\n\n
+numComments=6

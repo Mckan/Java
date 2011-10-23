@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=class\ OneHourTests
+comment0.text=\nPerform\ tests\ of\ the\ Day\ class\ that\ involve\nmaking\ single-hour\ appointments.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2001.09.14\n\n
+comment1.target=day
+comment2.params=
+comment2.target=void\ fillTheDay()
+comment2.text=\nTest\ basic\ functionality\ by\ filling\ a\ complete\nday\ with\ appointments.\n\n
+comment3.params=
+comment3.target=void\ testDoubleBooking()
+comment3.text=\nCheck\ that\ double-booking\ is\ not\ permitted.\n\n
+comment4.params=
+comment4.target=void\ makeThreeAppointments()
+comment4.text=\nTest\ basic\ functionality\ by\ booking\ at\ either\ end\nof\ a\ day,\ and\ in\ the\ middle.\n\n
+comment5.params=
+comment5.target=OneHourTests()
+comment5.text=\nConstructor\ for\ objects\ of\ class\ OneHourTests\n\n
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=DayTest()
+comment0.text=\nDefault\ constructor\ for\ test\ class\ DayTest\n\n
+comment1.target=void\ setUp()
+comment1.text=\nSets\ up\ the\ test\ fixture.\n\nCalled\ before\ every\ test\ case\ method.\n\n
+comment2.target=void\ tearDown()
+comment2.text=\nTears\ down\ the\ test\ fixture.\n\nCalled\ after\ every\ test\ case\ method.\n\n
+comment3.target=void\ testMakeThreeAppointments()
+comment3.text=\nTest\ basic\ functionality\ by\ booking\ at\ either\ end\nof\ a\ day,\ and\ in\ the\ middle.\n\n
+comment4.target=void\ testDoubleBooking()
+comment4.text=\nCheck\ that\ double-booking\ is\ not\ permitted.\n\n
+numComments=5

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Responder()
+comment0.text=\nConstruct\ a\ Responder\ -\ nothing\ to\ do\n\n
+comment1.target=String\ generateResponse()
+comment1.text=\nGenerate\ a\ response.\n@return\ \ \ A\ string\ that\ should\ be\ displayed\ as\ the\ response\n\n
+numComments=2

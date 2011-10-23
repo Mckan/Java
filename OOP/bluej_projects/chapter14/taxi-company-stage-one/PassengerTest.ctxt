@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PassengerTest()
+comment0.text=\nDefault\ constructor\ for\ test\ class\ PassengerTest\n\n
+comment1.target=void\ setUp()
+comment1.text=\nSets\ up\ the\ test\ fixture.\n\nCalled\ before\ every\ test\ case\ method.\n\n
+comment2.target=void\ tearDown()
+comment2.text=\nTears\ down\ the\ test\ fixture.\n\nCalled\ after\ every\ test\ case\ method.\n\n
+comment3.target=void\ testCreation()
+comment3.text=\nTest\ basic\ creation\ of\ a\ passenger.\nEnsure\ that\ the\ pickup\ and\ destination\ locations\nhave\ been\ set.\n\n
+numComments=4

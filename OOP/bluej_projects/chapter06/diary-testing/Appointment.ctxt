@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=class\ Appointment
+comment0.text=\nRecord\ details\ of\ a\ diary\ appointment.\n\n@author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n@version\ 2001.09.14\n\n
+comment1.params=
+comment1.target=int\ getDuration()
+comment1.text=\n@return\ The\ duration\ (in\ hours)\ of\ the\ appointment.\n\n
+comment2.params=
+comment2.target=String\ getDescription()
+comment2.text=\n@return\ The\ description\ of\ the\ appointment.\n\n
+comment3.target=description
+comment4.params=description\ duration
+comment4.target=Appointment(String,int)
+comment4.text=\nCreate\ an\ appointment\ with\ a\ given\ duration.\n@param\ description\ The\ reason\ for\ the\ appointment.\n@param\ duration\ The\ length\ of\ the\ appointment\ in\ hours.\n\n
+comment5.target=duration
+numComments=6

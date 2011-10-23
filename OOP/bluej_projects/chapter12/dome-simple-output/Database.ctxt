@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Database()
+comment0.text=\nConstruct\ an\ empty\ Database.\n\n
+comment1.params=theItem
+comment1.target=void\ addItem(Item)
+comment1.text=\nAdd\ an\ item\ to\ the\ database.\n@param\ theItem\ The\ item\ to\ be\ added.\n\n
+comment2.target=void\ list()
+comment2.text=\nPrint\ a\ list\ of\ all\ currently\ stored\ CDs\ and\ videos\ to\ the\ntext\ terminal.\n\n
+comment3.params=filename
+comment3.target=void\ writeBasicDetails(String)
+comment3.text=\nWrite\ the\ basic\ details\ of\ all\ items\ to\ the\ given\ file.\n@param\ filename\ Where\ to\ save\ the\ details.\n\n
+numComments=4

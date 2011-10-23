@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=dayNumber
+comment0.target=Day(int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Day.\n@param\ dayNumber\ The\ number\ of\ this\ day\ in\ the\ year\ (1-366).\n\n
+comment1.params=appointment
+comment1.target=int\ findSpace(Appointment)
+comment1.text=\nTry\ to\ find\ space\ for\ an\ appointment.\n@param\ appointment\ The\ appointment\ to\ be\ accommodated.\n@return\ The\ earliest\ time\ today\ that\ can\ accommodate\nthe\ appointment.\ Return\ -1\ if\ there\ is\ \ninsufficient\ space.\n\n
+comment2.params=time\ appointment
+comment2.target=boolean\ makeAppointment(int,\ Appointment)
+comment2.text=\nMake\ an\ appointment.\n@param\ time\ The\ hour\ at\ which\ the\ appointment\ starts.\n@param\ appointment\ The\ appointment\ to\ be\ made.\n@return\ true\ if\ the\ appointment\ was\ successful,\nfalse\ otherwise.\n\n
+comment3.params=time
+comment3.target=Appointment\ getAppointment(int)
+comment3.text=\n@param\ time\ Which\ time\ of\ day.\ This\ must\ be\ between\ the\nSTART_OF_DAY\ time\ and\ the\ FINAL_APPOINTMENT_TIME.\n@return\ The\ Appointment\ at\ the\ given\ time.\ null\ is\ returned\nif\ either\ the\ time\ is\ invalid\ or\ there\ is\ no\nAppointment\ at\ the\ given\ time.\n\n
+comment4.target=void\ showAppointments()
+comment4.text=\nPrint\ a\ list\ of\ the\ day's\ appointments\ on\ standard\ output.\n\n
+comment5.target=int\ getDayNumber()
+comment5.text=\n@return\ The\ number\ of\ this\ day\ within\ the\ year\ (1\ -\ 366).\n\n
+comment6.params=time
+comment6.target=boolean\ validTime(int)
+comment6.text=\n@return\ true\ if\ the\ time\ is\ between\ FINAL_APPOINTMENT_TIME\ and\nEND_OF_DAY,\ false\ otherwise.\n\n
+numComments=7

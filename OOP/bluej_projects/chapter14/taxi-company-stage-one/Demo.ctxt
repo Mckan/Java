@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Demo()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Demo\n\n
+comment1.target=void\ run()
+comment1.text=\nRun\ the\ demo\ for\ a\ fixed\ number\ of\ steps.\n\n
+comment2.target=void\ step()
+comment2.text=\nRun\ the\ demo\ for\ one\ step\ by\ requesting\nall\ actors\ to\ act.\n\n
+comment3.target=void\ reset()
+comment3.text=\nReset\ the\ demo\ to\ a\ starting\ point.\nA\ single\ taxi\ is\ created,\ and\ a\ pickup\ is\nrequested\ for\ a\ single\ passenger.\n@throws\ IllegalStateException\ If\ a\ pickup\ cannot\ be\ found\n\n
+numComments=4

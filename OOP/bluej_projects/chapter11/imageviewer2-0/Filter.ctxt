@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=class\ Filter
+comment0.text=\nFilter\ is\ an\ abstract\ superclass\ for\ all\ image\ filters\ in\ this\napplication.\ Filters\ can\ be\ applied\ to\ OFImages\ by\ invoking\ the\ apply\ \nmethod.\n\n@author\ Michael\ Kolling\ and\ David\ J\ Barnes\ \n@version\ 1.0\n\n
+comment1.params=image
+comment1.target=void\ apply(OFImage)
+comment1.text=\nApply\ this\ filter\ to\ an\ image.\n\n@param\ \ image\ \ The\ image\ to\ be\ changed\ by\ this\ filter.\n\n
+comment2.params=name
+comment2.target=Filter(String)
+comment2.text=\nCreate\ a\ new\ filter\ with\ a\ given\ name.\n@param\ name\ The\ name\ of\ the\ filter.\n\n
+comment3.target=name
+comment4.params=
+comment4.target=String\ getName()
+comment4.text=\nReturn\ the\ name\ of\ this\ filter.\n\n@return\ \ The\ name\ of\ this\ filter.\n\n
+numComments=5

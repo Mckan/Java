@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=theTitle\ theArtist\ tracks\ time
+comment0.target=CD(String,\ String,\ int,\ int)
+comment0.text=\nInitialize\ the\ CD.\n@param\ theTitle\ The\ title\ of\ the\ CD.\n@param\ theArtist\ The\ artist\ of\ the\ CD.\n@param\ tracks\ The\ number\ of\ tracks\ on\ the\ CD.\n@param\ time\ The\ playing\ time\ of\ the\ CD.\n\n
+comment1.target=String\ getArtist()
+comment1.text=\n@return\ The\ artist\ for\ this\ CD.\n\n
+comment2.target=int\ getNumberOfTracks()
+comment2.text=\n@return\ The\ number\ of\ tracks\ on\ this\ CD.\n\n
+comment3.target=String\ basicDetails()
+comment3.text=\nReturn\ basic\ details\ of\ this\ item\ -\ essentially,\nthe\ title\ and\ artist.\n@return\ basic\ details.\n\n
+comment4.target=void\ print()
+comment4.text=\nPrint\ details\ of\ this\ CD\ to\ the\ text\ terminal.\n\n
+numComments=5

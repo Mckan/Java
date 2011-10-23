@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=theTitle\ theDirector\ time
+comment0.target=DVD(String,\ String,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ DVD\n@param\ theTitle\ The\ title\ of\ this\ DVD.\n@param\ theDirector\ The\ director\ of\ this\ DVD.\n@param\ time\ The\ running\ time\ of\ the\ main\ feature.\n\n
+comment1.target=String\ getDirector()
+comment1.text=\n@return\ The\ director\ for\ this\ DVD.\n\n
+comment2.target=String\ basicDetails()
+comment2.text=\nReturn\ basic\ details\ of\ this\ item\ -\ essentially,\nthe\ director\ and\ title.\n@return\ basic\ details.\n\n
+comment3.target=void\ print()
+comment3.text=\nPrint\ details\ of\ this\ DVD\ to\ the\ text\ terminal.\n\n
+numComments=4

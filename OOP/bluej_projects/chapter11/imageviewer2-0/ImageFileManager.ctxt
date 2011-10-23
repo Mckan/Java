@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=class\ ImageFileManager
+comment0.text=\nImageFileManager\ is\ a\ small\ utility\ class\ with\ static\ methods\ to\ load\nand\ save\ images.\n\nThe\ files\ on\ disk\ can\ be\ in\ JPG\ or\ PNG\ image\ format.\ For\ files\ written\nby\ this\ class,\ the\ format\ is\ determined\ by\ the\ constant\ IMAGE_FORMAT.\n\n@author\ Michael\ Kolling\ and\ David\ J\ Barnes\ \n@version\ 2.0\n\n
+comment1.params=image\ file
+comment1.target=void\ saveImage(OFImage,File)
+comment1.text=\nWrite\ an\ image\ file\ to\ disk.\ The\ file\ format\ is\ JPG.\ In\ case\ of\ any\ \nproblem\ the\ method\ just\ silently\ returns.\n\n@param\ image\ \ The\ image\ to\ be\ saved.\n@param\ file\ \ \ The\ file\ to\ save\ to.\n\n
+comment2.target=IMAGE_FORMAT
+comment3.params=imageFile
+comment3.target=OFImage\ loadImage(File)
+comment3.text=\nRead\ an\ image\ file\ from\ disk\ and\ return\ it\ as\ an\ image.\ This\ method\ncan\ read\ JPG\ and\ PNG\ file\ formats.\ In\ case\ of\ any\ problem\ (e.g\ the\ file\ \ndoes\ not\ exist,\ is\ in\ an\ undecodable\ format,\ or\ any\ other\ read\ error)\ \nthis\ method\ returns\ null.\n\n@param\ imageFile\ \ The\ image\ file\ to\ be\ loaded.\n@return\ \ \ \ \ \ \ \ \ \ \ The\ image\ object\ or\ null\ is\ it\ could\ not\ be\ read.\n\n
+numComments=4

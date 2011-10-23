@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GridLayoutExample()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ GridLayoutExample\n\n
+comment1.target=void\ makeFrame()
+comment1.text=\nCreate\ a\ 3x2\ grid\ and\ place\ five\ components\ within\ it.\n\n
+numComments=2

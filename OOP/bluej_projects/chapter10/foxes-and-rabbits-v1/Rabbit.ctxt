@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=randomAge\ field\ location
+comment0.target=Rabbit(boolean,\ Field,\ Location)
+comment0.text=\nCreate\ a\ new\ rabbit.\ A\ rabbit\ may\ be\ created\ with\ age\nzero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\n@param\ randomAge\ If\ true,\ the\ rabbit\ will\ have\ a\ random\ age.\n@param\ field\ The\ field\ currently\ occupied.\n@param\ location\ The\ location\ within\ the\ field.\n\n
+comment1.params=newRabbits
+comment1.target=void\ run(List<Rabbit>)
+comment1.text=\nThis\ is\ what\ the\ rabbit\ does\ most\ of\ the\ time\ -\ it\ runs\ \naround.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\n@param\ newRabbits\ A\ list\ to\ add\ newly\ born\ rabbits\ to.\n\n
+comment2.target=boolean\ isAlive()
+comment2.text=\nCheck\ whether\ the\ rabbit\ is\ alive\ or\ not.\n@return\ true\ if\ the\ rabbit\ is\ still\ alive.\n\n
+comment3.target=void\ setDead()
+comment3.text=\nIndicate\ that\ the\ rabbit\ is\ no\ longer\ alive.\nIt\ is\ removed\ from\ the\ field.\n\n
+comment4.target=Location\ getLocation()
+comment4.text=\nReturn\ the\ rabbit's\ location.\n@return\ The\ rabbit's\ location.\n\n
+comment5.params=newLocation
+comment5.target=void\ setLocation(Location)
+comment5.text=\nPlace\ the\ rabbit\ at\ the\ new\ location\ in\ the\ given\ field.\n@param\ newLocation\ The\ rabbit's\ new\ location.\n\n
+comment6.target=void\ incrementAge()
+comment6.text=\nIncrease\ the\ age.\nThis\ could\ result\ in\ the\ rabbit's\ death.\n\n
+comment7.params=newRabbits
+comment7.target=void\ giveBirth(List<Rabbit>)
+comment7.text=\nCheck\ whether\ or\ not\ this\ rabbit\ is\ to\ give\ birth\ at\ this\ step.\nNew\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\n@param\ newRabbits\ A\ list\ to\ add\ newly\ born\ rabbits\ to.\n\n
+comment8.target=int\ breed()
+comment8.text=\nGenerate\ a\ number\ representing\ the\ number\ of\ births,\nif\ it\ can\ breed.\n@return\ The\ number\ of\ births\ (may\ be\ zero).\n\n
+comment9.target=boolean\ canBreed()
+comment9.text=\nA\ rabbit\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\n@return\ true\ if\ the\ rabbit\ can\ breed,\ false\ otherwise.\n\n
+numComments=10

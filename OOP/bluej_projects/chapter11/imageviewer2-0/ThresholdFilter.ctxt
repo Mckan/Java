@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=class\ ThresholdFilter
+comment0.text=\nAn\ three-level\ gray-based\ threshold\ filter.\n\n@author\ Michael\ Kolling\ and\ David\ J\ Barnes\ \n@version\ 1.0\n\n
+comment1.params=image
+comment1.target=void\ apply(OFImage)
+comment1.text=\nApply\ this\ filter\ to\ an\ image.\n\n@param\ \ image\ \ The\ image\ to\ be\ changed\ by\ this\ filter.\n\n
+comment2.params=name
+comment2.target=ThresholdFilter(String)
+comment2.text=\nConstructor\ for\ objects\ of\ class\ ThresholdFilter.\n@param\ name\ The\ name\ of\ the\ filter.\n\n
+numComments=3

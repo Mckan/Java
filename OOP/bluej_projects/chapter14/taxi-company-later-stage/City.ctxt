@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=width\ height
+comment0.target=City(int,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ City\n@param\ width\ The\ city's\ width.\n@param\ height\ The\ city's\ height.\n\n
+comment1.target=City()
+comment1.text=\nCreate\ a\ city\ of\ default\ size.\n\n
+comment2.target=Iterator\ getItems()
+comment2.text=\n@return\ An\ iterator\ over\ the\ items.\n\n
+comment3.params=item
+comment3.target=void\ addItem(Object)
+comment3.text=\nAdd\ the\ given\ item\ to\ the\ city's\ collection.\n@param\ item\ The\ item\ to\ be\ added.\n\n
+comment4.params=item
+comment4.target=void\ removeItem(Object)
+comment4.text=\nRemove\ the\ given\ item\ from\ the\ city's\ collection.\n@param\ item\ The\ item\ to\ be\ removed.\n\n
+comment5.target=String\ toString()
+comment5.text=\n@return\ A\ string\ representation\ of\ the\ city.\n\n
+comment6.target=int\ getWidth()
+comment6.text=\n@return\ The\ width.\n\n
+comment7.target=int\ getHeight()
+comment7.text=\n@return\ The\ height.\n\n
+numComments=8

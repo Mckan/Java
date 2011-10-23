@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=FishEyeFilter(String)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ LensFilter.\n@param\ name\ The\ name\ of\ the\ filter.\n\n
+comment1.params=image
+comment1.target=void\ apply(OFImage)
+comment1.text=\nApply\ this\ filter\ to\ an\ image.\n\n@param\ \ image\ \ The\ image\ to\ be\ changed\ by\ this\ filter.\n\n
+comment2.params=width
+comment2.target=int[]\ computeXArray(int)
+comment2.text=\nCompute\ and\ return\ an\ array\ of\ horizontal\ offsets\ for\ each\ pixel\ column.\nThese\ can\ then\ be\ applied\ as\ the\ horizontal\ offset\ for\ each\ pixel.\n\n
+comment3.params=height
+comment3.target=int[]\ computeYArray(int)
+comment3.text=\nCompute\ and\ return\ an\ array\ of\ vertical\ offsets\ for\ each\ pixel\ row.\nThese\ can\ then\ be\ applied\ as\ the\ vertical\ offset\ for\ each\ pixel.\n\n
+numComments=4
