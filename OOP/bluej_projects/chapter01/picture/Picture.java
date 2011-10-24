@@ -11,7 +11,7 @@
  */
 
 /**
- * Denna fil innehŒller Šndringar fšr uppgifterna:
+ * Denna fil innehï¿½ller ï¿½ndringar fï¿½r uppgifterna:
  * 1.13
  * 1.14
  * 1.15
@@ -101,7 +101,7 @@ public class Picture
     /**
      * Starts the sunset
      */
-    public void startSunSet()
+    public void sunset()
     {
         sun.slowMoveVertical(300);
     }
