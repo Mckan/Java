@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=GameEngine()
-comment0.text=\n\ Constructor\ of\ the\ game\ engine\ that\n\ sets\ up\ and\ connects\ the\ different\ parts\n
-comment1.params=
-comment1.target=int\ runGame()
-comment1.text=\n\ Runs\ the\ game\ and\ checks\ for\ winner\n
-numComments=2
