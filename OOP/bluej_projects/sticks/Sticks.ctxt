@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Sticks()
+comment0.text=\n\ Constructor\ initializes\ to\ 21\ sticks\n
+comment1.params=n
+comment1.target=Sticks(int)
+comment1.text=\n\ Constructor\ initializes\ to\ number\ of\ sticks\n\ @param\ int\ number\ of\ sticks\n
+comment2.params=
+comment2.target=void\ newGame()
+comment2.text=\n\ Starts\ a\ new\ game\n
+comment3.params=
+comment3.target=int\ sticksLeft()
+comment3.text=\n\ Returns\ how\ many\ sticks\ there\ are\ left\n\ @return\ int\ of\ sticks\ left\n
+comment4.params=n
+comment4.target=int\ take(int)
+comment4.text=\n\ Takes\ 1\ or\ 2\ sticks\ from\ the\ pile\ of\ sticks\n\ @return\ int\ amount\ of\ sticks\ left\ or\ -1\n
+numComments=5

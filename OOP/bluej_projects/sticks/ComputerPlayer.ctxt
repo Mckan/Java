@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=sticks
+comment0.target=ComputerPlayer(Sticks)
+comment0.text=\n\ Constructor\n\ @param\ a\ reference\ to\ the\ sticks\n
+comment1.params=
+comment1.target=int\ move()
+comment1.text=\n\ Makes\ the\ move\ for\ the\ computerplayer\n
+numComments=2
