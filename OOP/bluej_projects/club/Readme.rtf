@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf230
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12580\viewh6160\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\b\fs24 \cf0 Fr\'e5gor
+\b0 \
+\
+Att fundera p\'e5: Det kommer att beh\'f6vas iteratorobjekt p\'e5 flera st\'e4llen i l\'f6sningen. B\'f6r dessa deklareras lokalt i resp. metod, eller r\'e4cker det med ett gemensamt iteratorobjekt i klassen som kan anv\'e4ndas i de olika metoderna? Motivera! \
+
+\i Det r\'e4cker med ett iterator objekt lokalt. Intansvariabler skall endast lagra objektets tillst\'e5nd, allt annat b\'f6r deklareras s\'e5 lokalt som m\'f6jligt. Om man deklarerar iteratorn p\'e5 instansniv\'e5 s\'e5 sparar man f\'f6rvisso lite kod men det kan generera underliga fel som kan vara sv\'e5ra att fels\'f6ka eftersom s\'e5 m\'e5nga metoder anv\'e4nder den.
+\i0 \
+\
+Om parametern month har ett v\'e4rde utanf\'f6r det giltiga intervallet 1..12 skall metoden skriva ut ett felmeddelande samt returnera null . Denna metod \'e4r n\'e5got sv\'e5rare att skriva \'e4n ovanst\'e5ende. Tips: Utnyttja metoden remove. OBS, metoden finns b\'e5de i listklassen och i iteratorklassen. Vilken b\'f6r du anv\'e4nda? Vad skulle kunna h\'e4nda om du blandar?\
+Anv\'e4nder man den i iteratorklassen s\'e5 tar den bort objektet ur den underliggande listan, det vill s\'e4ga listan med medlemmar. }

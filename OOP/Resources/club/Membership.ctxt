@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=class\ Membership
+comment0.text=\nStore\ details\ of\ a\ club\ membership.\n\n@author\ David\ J.\ Barnes\n@version\ 2002.10.22\n\n
+comment1.params=
+comment1.target=int\ getMonth()
+comment1.text=\n@return\ The\ month\ in\ which\ the\ member\ joined.\nA\ value\ in\ the\ range\ 1\ ...\ 12\n\n
+comment2.target=name
+comment3.params=
+comment3.target=String\ getName()
+comment3.text=\n@return\ The\ member's\ name.\n\n
+comment4.params=
+comment4.target=String\ toString()
+comment4.text=\n@return\ A\ string\ representation\ of\ this\ membership.\n\n
+comment5.params=name\ month
+comment5.target=Membership(String,int)
+comment5.text=\nConstructor\ for\ objects\ of\ class\ Membership.\n@param\ name\ The\ name\ of\ the\ member.\n@param\ month\ The\ month\ in\ which\ they\ joined.\ (1\ ...\ 12)\n\n
+comment6.target=month
+numComments=7
