@@ -63,6 +63,25 @@ public class MailServer
      */
     public void post(MailItem item)
     {
-        items.add(item);
+        // Check to make sure message is valid
+        if(isValidMessage(item))
+        {
+            items.add(item);
+        }
+
+    }
+    
+    /**
+     * Checks the to and from fields to see if they are empty
+     * @param item The mail item to be checked
+     * @return True if the to and from fields are filled in
+     */
+    private boolean isValidMessage(MailItem item)
+    {
+        if(item.getTo().isEmpty() || item.getFrom().isEmpty())
+        {
+            return false;
+        }
+        return true;
     }
 }
