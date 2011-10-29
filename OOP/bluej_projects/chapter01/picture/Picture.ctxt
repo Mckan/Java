@@ -12,5 +12,6 @@ comment3.params=
 comment3.target=void\ setColor()
 comment3.text=\n\ Change\ this\ picture\ to\ use\ color\ display\n
 comment4.params=
-comment4.target=void\ startSunSet()
+comment4.target=void\ sunset()
+comment4.text=\n\ Starts\ the\ sunset\n
 numComments=5
